@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="text-center mb-4">Image Carousel</h1>
+      <div class="text-center">
+        <h2 class="carousel-title">World foods</h2>
+        <p class="carousel-description">A carousel of famous foods from around the world</p>
+      </div>
+      <div class="carousel position-relative">
+        <button class="carousel-button prev rounded-circle" id="prevBtn">&#10094;</button>
+        <div class="carousel-track-container rounded-3 shadow">
+          <ul class="carousel-track">
+          </ul>
+        </div>
+        <button class="carousel-button next rounded-circle" id="nextBtn">&#10095;</button>
+        <div class="carousel-dots d-flex justify-content-center align-items-center"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

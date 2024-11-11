@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-image: url('https://preview.redd.it/fwixewsnkmq81.jpg?width=1080&crop=smart&auto=webp&s=85d174a71b4ed78fed37778254a4533f83a0046a');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f5f5f5;
+}
+
+#root-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.digimon-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.digimon-card img {
+  width: 90%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.digimon-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: rem;
+  font-weight: bold;
+  font-stretch:extra-condensed;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.btn {
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0c5dbb;
+  transform: scale(1.05);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f5f5f5;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#prev-button, #next-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #1a73e8;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#prev-button:hover, #next-button:hover {
+  background-color: #0c5dbb;
+}
+
+.digimon-details {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.digimon-details h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.digimon-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.digimon-details .description {
+  margin-top: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+}
+

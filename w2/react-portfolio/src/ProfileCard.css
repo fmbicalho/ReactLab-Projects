@@ -1,0 +1,120 @@
+.profile-card {
+    display: flex;
+    max-width: 50%;
+    margin: 2rem auto;
+    background: linear-gradient(to right, #2c3e50, #4c5d73);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+  }
+  
+  .profile-image {
+    flex: 1;
+  }
+  
+  .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+  }
+  
+  .profile-details {
+    flex: 2;
+    padding: 1.5rem;
+    background-color: #2d2f40;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-name {
+    font-size: 2.5rem;
+    color: #ff4b2b;
+    margin: 0;
+  }
+  
+  .profile-title {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  .status {
+    color: #ff4b2b;
+    font-size: 1rem;
+  }
+  
+  .bio-section,
+  .location-section {
+    margin-top: 1.5rem;
+  }
+  
+  h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .message-btn {
+    background-color: #ff4b2b;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+  
+  .extras {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .social-icons button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-right: 0.5rem;
+  }
+  
+  .social-icons button:hover {
+    color: #ff4b2b;
+  }
+
+  .social-icons i {
+    color: #fff;
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+  }
+  

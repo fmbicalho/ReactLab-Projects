@@ -1,0 +1,46 @@
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    margin-top: 8px;
+  }
+  
+  .badge-javascript {
+    background-color: #f1e05a;
+  }
+  
+  .badge-python {
+    background-color: #3572A5;
+  }
+  
+  .badge-java {
+    background-color: #b07219;
+  }
+  
+  .badge-css {
+    background-color: #563d7c;
+  }
+  
+  .badge-html {
+    background-color: #e34c26;
+  }
+  
+  .badge-typescript {
+    background-color: #2b7489;
+  }
+  
+  .badge-ruby {
+    background-color: #701516;
+  }
+  
+  .badge-cplusplus {
+    background-color: #f34b7d;
+  }
+  
+  .badge-default {
+    background-color: #6c757d;
+  }
+  
